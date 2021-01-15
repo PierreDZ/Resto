@@ -1,456 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant La Bouffe Royale</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./dist/hamburgers.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./dist/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <!-- HEADER -->
+      <nav class="navbar navbar-expand-md navbar-light pl-0 pr-0">
+        <a class="navbar-brand text-danger" href="#">La Bouffe Royale</a>
 
-        <!-- HEADER -->
-        <nav class="navbar navbar-expand-md navbar-light pl-0 pr-0">
-            <a class="navbar-brand text-danger" href="#">La Bouffe Royale</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">A propos <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#specs">Spécialités</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#menu">Menu</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row">
-            <div class="img col-12 d-flex align-items-center justify-content-center">
-                <h3 class="txt-restau text-uppercase">Restaurant depuis 1933</h3>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >A propos <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#specs">Spécialités</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+          </ul>
         </div>
-        <!-- FIN HEADER -->
+      </nav>
+      <div class="row">
+        <div
+          class="img col-12 d-flex align-items-center justify-content-center"
+        >
+          <h3 class="txt-restau text-uppercase">Restaurant depuis 1933</h3>
+        </div>
+      </div>
+      <!-- FIN HEADER -->
 
-        <!-- WELCOME -->
-        <div class="row header pt-3">
+      <!-- WELCOME -->
+      <div class="row header pt-3">
+        <div class="col-12 text-center">
+          <h4>Bienvenue chez vous</h4>
+          <p>Nous sommes heureux de vous accueillir</p>
+        </div>
+        <div
+          class="col-12 d-flex align-items-center justify-content-center"
+        ></div>
+        <div
+          class="col-12 col-lg-6 pt-3 border align-items-center justify-content-center"
+        >
+          <h3 class="pb-3 text-center">A propos de nous</h3>
+          <p>
+            "Généralement, on utilise un texte en faux latin (le texte ne veut
+            rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet
+            donc de faire office de texte d'attente. L'avantage de le mettre en
+            latin est que l'opérateur sait au premier coup d'oeil que la page
+            contenant ces lignes n'est pas valide, et surtout l'attention du
+            client n'est pas dérangée par le contenu, il demeure concentré
+            seulement sur l'aspect graphique. Ce texte a pour autre avantage
+            d'utiliser des mots de longueur variable, essayant de simuler une
+            occupation normale.te appréciation typographique du résultat final."
+          </p>
+        </div>
+        <div
+          class="col-12 col-lg-6 pt-3 border align-items-center justify-content-center"
+        >
+          <h3 class="pb-3 text-center">Nos distinctions</h3>
+          <p>
+            "Généralement, on utilise un texte en faux latin (le texte ne veut
+            rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet
+            donc de faire office de texte d'attente. L'avantage de le mettre en
+            latin est que l'opérateur sait au premier coup d'oeil que la page
+            contenant ces lignes n'est pas valide, et surtout l'attention du
+            client n'est pas dérangée par le contenu, il demeure concentré
+            seulement sur l'aspect graphique. Ce texte a pour autre avantage
+            d'utiliser des mots de longueur variable, essayant de simuler une
+            occupation normale.te appréciation typographique du résultat final."
+          </p>
+        </div>
+        <div
+          class="img-viande col-12 col-lg-6 pt-3 h-100 border align-items-center justify-content-center"
+        >
+          <h3 class="pb-3 text-center">Toutes sortes de viandes</h3>
+          <p class="txt-white bok">
+            "Généralement, on utilise un texte en faux latin (le texte ne veut
+            rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet
+            donc de faire office de texte d'attente. L'avantage de le mettre en
+            latin est que l'opérateur sait au premier coup d'oeil que la page
+            contenant ces lignes n'est pas valide, et surtout l'attention du
+            client n'est pas dérangée par le contenu, il demeure concentré
+            seulement sur l'aspect graphique. Ce texte a pour autre avantage
+            d'utiliser des mots de longueur variable, essayant de simuler une
+            occupation normale.te appréciation typographique du résultat final."
+          </p>
+        </div>
+        <div
+          class="img-vg col-12 col-lg-6 pt-3 h-100 border align-items-center justify-content-center"
+        >
+          <h3 class="pb-3 text-center">Plats Végétariens</h3>
+          <p class="">
+            "Généralement, on utilise un texte en faux latin (le texte ne veut
+            rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet
+            donc de faire office de texte d'attente. L'avantage de le mettre en
+            latin est que l'opérateur sait au premier coup d'oeil que la page
+            contenant ces lignes n'est pas valide, et surtout l'attention du
+            client n'est pas dérangée par le contenu, il demeure concentré
+            seulement sur l'aspect graphique. Ce texte a pour autre avantage
+            d'utiliser des mots de longueur variable, essayant de simuler une
+            occupation normale.te appréciation typographique du résultat final."
+          </p>
+        </div>
+      </div>
+      <!-- FIN WELCOME -->
+
+      <!-- EVENTS -->
+      <div class="row events border pt-3">
+        <div class="col-12 text-center">
+          <h4>Nos évenements</h4>
+          <p>Rejoignez nous aujourd'hui</p>
+        </div>
+        <div
+          class="col-12 d-flex align-items-center justify-content-center"
+        ></div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border align-items-center justify-content-center"
+        >
+          <h4 class="pb-3 text-center">Le Steak Geant</h4>
+          <p class="pb-4">Mardi XX Octobre</p>
+          <p>
+            Grillades du far west à la John Wayne … Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam,
+          </p>
+        </div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border align-items-center justify-content-center"
+        >
+          <h4 class="pb-3 text-center">Le Brule langue</h4>
+          <p class="pb-4">Jeudi XX Octobre</p>
+          <p>
+            Plats épicés dus 4 coins du monde … Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad,
+          </p>
+        </div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 h-100 border align-items-center justify-content-center"
+        >
+          <h4 class="pb-3 text-center">Cuisine de la Mama</h4>
+          <p class="pb-4">Samedi XX Octobre</p>
+          <p>
+            Des plats ialiens "comme la bas dis" … Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam,
+          </p>
+        </div>
+        <div
+          class="col-12 pt-3 text-center align-items-center justify-content-center"
+        >
+          <p class="alert alert-warning" role="alert">
+            Tous les mercredis, steak special petits bambinos
+          </p>
+        </div>
+      </div>
+      <!-- FIN EVENTS -->
+
+      <!-- MENU -->
+      <div class="row menu border pt-3">
+        <div class="col-12 text-center">
+          <h4 id="menu" class="text-uppercase">Le Menu</h4>
+          <p>Vos papilles diront Merci</p>
+        </div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border align-items-center justify-content-center"
+        >
+          <div class="row mb-3">
             <div class="col-12 text-center">
-                <h4>Bienvenue chez vous</h4>
-                <p>Nous sommes heureux de vous accueillir</p>
+              <h4>Pizzas</h4>
             </div>
-            <div class="col-12 d-flex align-items-center justify-content-center">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div class="col-12 col-lg-6 pt-3 border align-items-center justify-content-center">
-                <h3 class="pb-3 text-center">A propos de nous</h3>
-                <p>"Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le
-                    Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre
-                    en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas
-                    valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré
-                    seulement sur l'aspect graphique.
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                </p>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div class="col-12 col-lg-6 pt-3 border  align-items-center justify-content-center">
-                <h3 class="pb-3 text-center">Nos distinctions</h3>
-                <p>"Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le
-                    Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre
-                    en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas
-                    valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré
-                    seulement sur l'aspect graphique.
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                </p>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div class="img-viande col-12 col-lg-6 pt-3 h-100 border  align-items-center justify-content-center">
-                <h3 class="pb-3 text-center">Toutes sortes de viandes</h3>
-                <p class="txt-white bok">"Généralement, on utilise un texte en faux latin (le texte ne veut rien dire,
-                    il a été modifié), le
-                    Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre
-                    en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas
-                    valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré
-                    seulement sur l'aspect graphique.
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                </p>
-            </div>
-            <div class=" img-vg col-12 col-lg-6 pt-3 h-100 border align-items-center justify-content-center ">
-                <h3 class="pb-3 text-center">Plats Végétariens</h3>
-                <p class="">
-                    "Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le
-                    Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre
-                    en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas
-                    valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré
-                    seulement sur l'aspect graphique.
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                    Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une
-                    occupation normale.te appréciation typographique du résultat final."
-                </p>
-            </div>
+          </div>
         </div>
-        <!-- FIN WELCOME -->
-
-        <!-- EVENTS -->
-        <div class="row events border  pt-3">
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border align-items-center justify-content-center"
+        >
+          <div class="row mb-3">
             <div class="col-12 text-center">
-                <h4>Nos évenements</h4>
-                <p>Rejoignez nous aujourd'hui</p>
+              <h4>Pâtes</h4>
             </div>
-            <div class="col-12 d-flex align-items-center justify-content-center">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div
-                class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border  align-items-center justify-content-center">
-                <h4 class="pb-3 text-center">Le Steak Geant</h4>
-                <p class="pb-4">Mardi XX Octobre</p>
-                <p>Grillades du far west à la John Wayne …
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam,</p>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div
-                class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border  align-items-center justify-content-center">
-                <h4 class="pb-3 text-center">Le Brule langue</h4>
-                <p class="pb-4">Jeudi XX Octobre</p>
-                <p>Plats épicés dus 4 coins du monde …
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad,</p>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
+                </div>
+                <div class="col-2">
+                  <p>10€</p>
+                </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div
-                class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 h-100 border  align-items-center justify-content-center">
-                <h4 class="pb-3 text-center">Cuisine de la Mama</h4>
-                <p class="pb-4">Samedi XX Octobre</p>
-                <p>Des plats ialiens "comme la bas dis" …
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam,</p>
-            </div>
-            <div class="col-12 pt-3 text-center align-items-center justify-content-center">
-                <p class="alert alert-warning" role="alert">
-                    Tous les mercredis, steak special petits bambinos
-                </p>
-            </div>
+          </div>
         </div>
-        <!-- FIN EVENTS -->
-
-        <!-- MENU -->
-        <div class="row menu border  pt-3">
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border align-items-center justify-content-center"
+        >
+          <div class="row mb-3">
             <div class="col-12 text-center">
-                <h4 id="menu" class="text-uppercase">Le Menu</h4>
-                <p>Vos papilles diront Merci</p>
+              <h4>Surprises</h4>
             </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border  align-items-center justify-content-center">
-                <div class="row  mb-3">
-                    <div class="col-12 text-center">
-                        <h4>Pizzas</h4>
-                    </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
+                <div class="col-2">
+                  <p>10€</p>
                 </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border  align-items-center justify-content-center">
-                <div class="row mb-3">
-                    <div class="col-12 text-center">
-                        <h4>Pâtes</h4>
-                    </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
+                <div class="col-2">
+                  <p>10€</p>
                 </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border  align-items-center justify-content-center">
-                <div class="row  mb-3">
-                    <div class="col-12 text-center">
-                        <h4>Surprises</h4>
-                    </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-10">
+                  <p class="font-weight-bold">Lorem</p>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-10">
-                                <p class="font-weight-bold">Lorem</p>
-                            </div>
-                            <div class="col-2">
-                                <p>10€</p>
-                            </div>
-                        </div>
-                        <p>Ce texte a pour autre avantage d'utiliser
-                            des mots de longueur variable, essayant
-                            de simuler une occupation normale.
-                        </p>
-                    </div>
+                <div class="col-2">
+                  <p>10€</p>
                 </div>
+              </div>
+              <p>
+                Ce texte a pour autre avantage d'utiliser des mots de longueur
+                variable, essayant de simuler une occupation normale.
+              </p>
             </div>
+          </div>
         </div>
-        <!-- FIN MENU -->
+      </div>
+      <!-- FIN MENU -->
 
-        <!-- SPECIALITES -->
-        <div class="row specs border  pt-3">
-            <div id="specs" class="col-12 text-center mb-3">
-                <h4>Spécialités du weekend</h4>
-            </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border">
-                <img class="sp mr-3" src="./img/specialites-01.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et t dolore magna
-                    aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border">
-                <img class="sp sp-right mr-md-3 ml-3 ml-md-0" src="./img/specialites-02.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et t dolore magna
-                    aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border">
-                <img class="sp mr-3" src="./img/specialites-03.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et t dolore magna
-                    aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris </p>
-            </div>
+      <!-- SPECIALITES -->
+      <div class="row specs border pt-3">
+        <div id="specs" class="col-12 text-center mb-3">
+          <h4>Spécialités du weekend</h4>
         </div>
-        <!-- FIN SPECIALITES -->
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border"
+        >
+          <img class="sp mr-3" src="./img/specialites-01.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et t dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border"
+        >
+          <img
+            class="sp sp-right mr-md-3 ml-3 ml-md-0"
+            src="./img/specialites-02.jpg"
+            alt=""
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et t dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+        <div
+          class="offset-1 col-10 offset-lg-0 col-lg-4 pt-3 mb-4 mb-lg-0 border"
+        >
+          <img class="sp mr-3" src="./img/specialites-03.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmodLorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et t dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+      <!-- FIN SPECIALITES -->
 
-        <!-- IMGS -->
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="row imagesL mt-3 mb-3">
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-01.jpg" alt="plat 1">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-02.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-03.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat  " src="./img/plat-04.jpg" alt="">
-                    </div>
-                </div>
+      <!-- IMGS -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="row imagesL mt-3 mb-3">
+            <div class="col-3">
+              <img class="plat" src="./img/plat-01.jpg" alt="plat 1" />
             </div>
-            <div class="col-12 col-lg-6">
-                <div class="row imagesL mt-3 mb-3">
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-05.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-06.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-07.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="plat " src="./img/plat-08.jpg" alt="">
-                    </div>
-                </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-02.jpg" alt="" />
             </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-03.jpg" alt="" />
+            </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-04.jpg" alt="" />
+            </div>
+          </div>
         </div>
-        <!-- FIN IMGS -->
-        <!-- CHEFS -->
-        <div class="row border pt-3 align-items-center justify-content-center">
-            <div class="col-12 text-center">
-                <h4>Nos Chefs</h4>
-                <p>Les meilleurs, c'est tout</p>
+        <div class="col-12 col-lg-6">
+          <div class="row imagesL mt-3 mb-3">
+            <div class="col-3">
+              <img class="plat" src="./img/plat-05.jpg" alt="" />
             </div>
-            <div class="col-12 col-lg-4 pt-3 border ">
-                <div class="row">
-                    <div class="col-6 col-lg-12">
-                        <img class="chefs mb-4" src="./img/Chef01.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-lg-12">
-                        <p>Généralement, on utilise un texte en
-                            faux latin (le texte ne veut rien dire,
-                            il a été modifié), le Lorem ipsum ou
-                            Lipsum, qui permet donc de faire
-                            office de texte d'attente. L'avantage
-                            de le mettre en latin est …
-                        </p>
-                    </div>
-                </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-06.jpg" alt="" />
             </div>
-            <div class="col-12 col-lg-4 pt-3 border  align-items-center justify-content-center">
-                <div class="row flex-row-reverse flex-lg-row">
-                    <div class="col-6 col-lg-12">
-                        <img class="chefs mb-4" src="./img/Chef02.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-lg-12">
-                        <p>Généralement, on utilise un texte en
-                            faux latin (le texte ne veut rien dire,
-                            il a été modifié), le Lorem ipsum ou
-                            Lipsum, qui permet donc de faire
-                            office de texte d'attente. L'avantage
-                            de le mettre en latin est …
-                        </p>
-                    </div>
-                </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-07.jpg" alt="" />
             </div>
-            <div class="col-12 col-lg-4 pt-3 border  align-items-center justify-content-center">
-                <div class="row">
-                    <div class="col-6 col-lg-12">
-                        <img class="chefs mb-4" src="./img/Chef03.jpg" alt="">
-                    </div>
-                    <div class="col-6 col-lg-12">
-                        <p>Généralement, on utilise un texte en
-                            faux latin (le texte ne veut rien dire,
-                            il a été modifié), le Lorem ipsum ou
-                            Lipsum, qui permet donc de faire
-                            office de texte d'attente. L'avantage
-                            de le mettre en latin est … Généralement, on utilise un texte en
-
-                        </p>
-                    </div>
-                </div>
+            <div class="col-3">
+              <img class="plat" src="./img/plat-08.jpg" alt="" />
             </div>
+          </div>
         </div>
-        <!-- FIN CHEFS -->
+      </div>
+      <!-- FIN IMGS -->
+      <!-- CHEFS -->
+      <div class="row border pt-3 align-items-center justify-content-center">
+        <div class="col-12 text-center">
+          <h4>Nos Chefs</h4>
+          <p>Les meilleurs, c'est tout</p>
+        </div>
+        <div class="col-12 col-lg-4 pt-3 border">
+          <div class="row">
+            <div class="col-6 col-lg-12">
+              <img class="chefs mb-4" src="./img/Chef01.jpg" alt="" />
+            </div>
+            <div class="col-6 col-lg-12">
+              <p>
+                Généralement, on utilise un texte en faux latin (le texte ne
+                veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui
+                permet donc de faire office de texte d'attente. L'avantage de le
+                mettre en latin est …
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-4 pt-3 border align-items-center justify-content-center"
+        >
+          <div class="row flex-row-reverse flex-lg-row">
+            <div class="col-6 col-lg-12">
+              <img class="chefs mb-4" src="./img/Chef02.jpg" alt="" />
+            </div>
+            <div class="col-6 col-lg-12">
+              <p>
+                Généralement, on utilise un texte en faux latin (le texte ne
+                veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui
+                permet donc de faire office de texte d'attente. L'avantage de le
+                mettre en latin est …
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-4 pt-3 border align-items-center justify-content-center"
+        >
+          <div class="row">
+            <div class="col-6 col-lg-12">
+              <img class="chefs mb-4" src="./img/Chef03.jpg" alt="" />
+            </div>
+            <div class="col-6 col-lg-12">
+              <p>
+                Généralement, on utilise un texte en faux latin (le texte ne
+                veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui
+                permet donc de faire office de texte d'attente. L'avantage de le
+                mettre en latin est … Généralement, on utilise un texte en
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIN CHEFS -->
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
