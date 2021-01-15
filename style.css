@@ -1,102 +1,107 @@
-body{
-    background-color: whitesmoke;
+body {
+  background-color: whitesmoke;
 }
-.img{
-    background: no-repeat center center;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./img/la-bouffe-royale.jpg);
-    height: 400px;
-    background-size: cover;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    opacity: 0.9;
+.img {
+  background: no-repeat center center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(./img/la-bouffe-royale.jpg);
+  height: 400px;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  opacity: 0.9;
 }
 .img:hover {
-    transform: scale(1.025);
-    box-shadow: 0 0 15px #222;
-    opacity: 1;
+  transform: scale(1.025);
+  box-shadow: 0 0 15px #222;
+  opacity: 1;
 }
 
 ul {
-    border: 1px solid #dee2e6;
+  border: 1px solid #dee2e6;
 }
 
 @media (min-width: 768px) {
-    ul {
-        border: none;
-    }
+  ul {
+    border: none;
+  }
 }
 
 .txt-restau {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .img-viande {
-    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./img/viandes-charcuteries.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 100%;
-    min-height: 200px;
-    color: #f2f2f2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(./img/viandes-charcuteries.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 200px;
+  color: #f2f2f2;
 }
 
 .img-vg {
-    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./img/vegan-legumes-champignions.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 100%;
-    min-height: 200px;
-    color: #f2f2f2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(./img/vegan-legumes-champignions.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 200px;
+  color: #f2f2f2;
 }
 
 .sp {
-    width: 60%;
-    float: left;
-    transition: all 0.2s ease-in-out;
-    opacity: 0.9;
+  width: 60%;
+  float: left;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {
-    .sp-right {
-        float: right;
-    }
+  .sp-right {
+    float: right;
+  }
 }
 
 .sp:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #222;
-    opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #222;
+  opacity: 1;
 }
 .plat {
-    width: 100%;
-    transition: all 0.2s ease-in-out;
-    opacity: 0.9;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.9;
 }
 
 .plat:hover {
-    transform: scale(1.25);
-    box-shadow: 0 0 15px #222;
-    opacity: 1;
+  transform: scale(1.25);
+  box-shadow: 0 0 15px #222;
+  opacity: 1;
 }
 
 .chefs {
-    width: 100%;
-    height: 430px;
-    object-fit: cover;
-    transition: all 0.2s ease-in-out;
-    opacity: 0.9;
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.9;
 }
 
 .chefs:hover {
-    transform: scale(1.05);
-    opacity: 1;    
-    box-shadow: 0 0 15px #222;
+  transform: scale(1.05);
+  opacity: 1;
+  box-shadow: 0 0 15px #222;
 }
-.navbar-toggler-icon{
-    background-image: url("./img/menu (1).svg") !important;
+.navbar-toggler-icon {
+  background-image: url("./img/menu (1).svg") !important;
 }
-button{
-    border: none !important;
-    outline: none !important;
+button {
+  border: none !important;
+  outline: none !important;
 }
 
 /* Un peu de texte pour tester le commit n3 */
+
+/* Un peu de texte pour tester le commit n3 */ /* Un peu de texte pour tester le commit n3 */
